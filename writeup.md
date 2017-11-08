@@ -22,10 +22,10 @@ The goals / steps of this project are the following:
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
 My pipeline consisted of 6 steps:
-# I selected the yellow and the white lines using the HSL color space which gave me better results than the RGB space when extracting those colors.
-# Then I converted the images to grayscale in order to being able to extract features from them.
-# Using the grayed images, I applied the Canny algorithm to extract edges and then smoothed the images by using a Gaussian blur. This helped to reduce the noises. 
-# By defining a ROI region in a form of a trapeze, I reduced the region to be considered and then applied a Hough Transformation to find lines
+* I selected the yellow and the white lines using the HSL color space which gave me better results than the RGB space when extracting those colors.
+* Then I converted the images to grayscale in order to being able to extract features from them.
+* Using the grayed images, I applied the Canny algorithm to extract edges and then smoothed the images by using a Gaussian blur. This helped to reduce the noises. 
+* By defining a ROI region in a form of a trapeze, I reduced the region to be considered and then applied a Hough Transformation to find lines
 
 (Inital Image)[https://github.com/sbatururimi/Finding-Lanes-Lines/blob/master/test_images/solidYellowCurve.jpg]
 [Lanes](https://github.com/sbatururimi/Finding-Lanes-Lines/blob/master/test_images_output/solidYellowCurve.jpg)
