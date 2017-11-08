@@ -38,7 +38,7 @@ In order to draw a single line on the left and right lines, I modified the algor
 
 ### 2. Identify potential shortcomings with your current pipeline
 
-One potential shortcoming would be what would happen when the sun is much brigher and when we would have much more trees giving a much more shadows.
+One potential shortcoming would be what would happen when the sun is much brigher and when we would have much more trees giving wider and stronger shadows.
 
 Another shortcoming could be to have a much more curved road.
 
