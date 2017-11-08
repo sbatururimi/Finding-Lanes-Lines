@@ -3,6 +3,6 @@ When we drive, we use our eyes to decide where to go. The lines on the road that
 
 In this project I will detect lane lines in images using Python and OpenCV. 
 
-Source (code)[https://github.com/sbatururimi/Finding-Lanes-Lines/blob/master/Finding%20Lane%20Lines%20on%20the%20Road.ipynb]
+Source [code](https://github.com/sbatururimi/Finding-Lanes-Lines/blob/master/Finding%20Lane%20Lines%20on%20the%20Road.ipynb)
 
 To create an Anaconda environment use conda env create -f environment.yaml.
