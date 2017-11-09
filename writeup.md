@@ -31,7 +31,7 @@ My pipeline consisted of 6 steps:
 
 ![](https://github.com/sbatururimi/Finding-Lanes-Lines/blob/master/test_images_output/solidYellowCurve.jpg)
 
-In order to draw a single line on the left and right lines, I modified the algorithm by first determining the slope of lines in order to consider separately left and right lines, then I gave a more weight to longer lines just by multiplying with the vector distance (in L2 space) between the two given points of a line. Every single line was then given by a line equation in the form of y = ax + b.
+In order to draw a single line on the left and right lines, I modified the algorithm by first determining the slope of lines in order to consider separately left and right lines, then I gave more weights to longer lines by multiplying the line segment with the vector distance (in L2 space, i.e the Euclidean norm) between the two given points of a line. Every single line was then given by a line equation in the form of y = ax + b.
 
 ![](https://github.com/sbatururimi/Finding-Lanes-Lines/blob/master/test_videos_output/out.gif)
 
