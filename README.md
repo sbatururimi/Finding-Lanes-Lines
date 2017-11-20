@@ -5,4 +5,7 @@ In this project I will detect lane lines in images using Python and OpenCV.
 
 Source [code](https://github.com/sbatururimi/Finding-Lanes-Lines/blob/master/Finding%20Lane%20Lines%20on%20the%20Road.ipynb)
 
-To create an Anaconda environment use conda env create -f environment.yaml.
+To create an Anaconda environment, run the following command in the terminal from the root folder of the project:
+```
+ conda env create -f environment.yaml
+ ```
