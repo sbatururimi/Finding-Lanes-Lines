@@ -9,3 +9,7 @@ To create an Anaconda environment, run the following command in the terminal fro
 ```
  conda env create -f environment.yaml
  ```
+
+
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/sbatururimi/Finding-Lanes-Lines/blob/master/LICENSE)
